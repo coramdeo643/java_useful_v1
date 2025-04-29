@@ -19,16 +19,16 @@ public class MyFrame extends JFrame {
 
     private void initData() {
         setTitle("JLabel 이용한 Image 사용연습");
-        setSize(800, 450);
+        setSize(500, 450);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ImageIcon backgroundIcon = new ImageIcon("background.png");
-        ImageIcon playerIcon = new ImageIcon("player.png");
+        ImageIcon backgroundIcon = new ImageIcon("images/background.png");
+        ImageIcon playerIcon = new ImageIcon("images/player.png");
 
         backgroundMap = new JLabel(backgroundIcon);
         player = new JLabel(playerIcon);
 
-        backgroundMap.setSize(800, 450);
+        backgroundMap.setSize(500, 450);
         backgroundMap.setLocation(0, -20);
 
         player.setSize(100, 350); // 원본 이미지 크기 조절 불가
@@ -55,3 +55,4 @@ public class MyFrame extends JFrame {
         new MyFrame();
     } // end of main
 } // end of class
+// 250429.1200.
