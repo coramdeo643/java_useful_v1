@@ -1,7 +1,5 @@
 package _swing;
 
-import _my_test.MyPaintFrame;
-
 import javax.swing.*;
 import java.awt.*;
 
